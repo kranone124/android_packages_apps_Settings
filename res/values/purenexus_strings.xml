@@ -167,6 +167,11 @@
     <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
     <string name="double_twist_for_camera_mode_summary_pn">To switch in and out of selfie mode in Google Camera, double-twist when you’re in the app</string>
 
+<!-- Language & Input -->
+    <!-- Fullscreen Keyboard -->
+    <string name="disable_fullscreen_keyboard_title">Disable fullscreen keyboard</string>
+    <string name="disable_fullscreen_keyboard_summary">Landscape keyboard will never take up entire screen</string>
+
 <!-- Sound & Notification Settings -->
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
