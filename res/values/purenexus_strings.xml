@@ -34,6 +34,8 @@
     <string name="supersu_title">SuperSU</string>
     <string name="superuser_title">Superuser</string>
     <string name="supersu_summary">Manage root permissions</string>
+    <string name="magisk_title">Magisk manager</string>
+    <string name="magisk_summary">Control modules and settings</string>
 
 <!-- Development Settings -->
     <!-- Dev Options Enabled by Default -->
