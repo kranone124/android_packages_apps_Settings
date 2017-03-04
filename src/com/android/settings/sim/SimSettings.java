@@ -16,6 +16,7 @@
 
 package com.android.settings.sim;
 
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
@@ -24,6 +25,7 @@ import android.os.Bundle;
 import android.os.SystemProperties;
 import android.provider.SearchIndexableResource;
 import android.support.v7.preference.Preference;
+import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceScreen;
 import android.telecom.PhoneAccount;
 import android.telecom.PhoneAccountHandle;
@@ -56,6 +58,7 @@ public class SimSettings extends RestrictedSettingsFragment implements Indexable
     private static final String KEY_CELLULAR_DATA = "sim_cellular_data";
     private static final String KEY_CALLS = "sim_calls";
     private static final String KEY_SMS = "sim_sms";
+    private static final String MOBILE_NETWORK_CATEGORY = "mobile_network";
     public static final String EXTRA_SLOT_ID = "slot_id";
 
     /**
@@ -68,6 +71,7 @@ public class SimSettings extends RestrictedSettingsFragment implements Indexable
     private List<SubscriptionInfo> mSubInfoList = null;
     private List<SubscriptionInfo> mSelectableSubInfos = null;
     private PreferenceScreen mSimCards = null;
+    private PreferenceCategory mMobileNetwork;
     private SubscriptionManager mSubscriptionManager;
     private int mNumSlots;
     private Context mContext;
@@ -97,6 +101,7 @@ public class SimSettings extends RestrictedSettingsFragment implements Indexable
 
         mNumSlots = tm.getSimCount();
         mSimCards = (PreferenceScreen)findPreference(SIM_CARD_CATEGORY);
+        mMobileNetwork = (PreferenceCategory) findPreference(MOBILE_NETWORK_CATEGORY);
         mAvailableSubInfos = new ArrayList<SubscriptionInfo>(mNumSlots);
         mSelectableSubInfos = new ArrayList<SubscriptionInfo>();
         SimSelectNotification.cancelNotification(getActivity());
@@ -119,6 +124,7 @@ public class SimSettings extends RestrictedSettingsFragment implements Indexable
                 mSimCards.removePreference(pref);
             }
         }
+        mMobileNetwork.removeAll();
         mAvailableSubInfos.clear();
         mSelectableSubInfos.clear();
 
@@ -132,6 +138,17 @@ public class SimSettings extends RestrictedSettingsFragment implements Indexable
             if (sir != null) {
                 mSelectableSubInfos.add(sir);
             }
+
+            Intent mobileNetworkIntent = new Intent();
+            mobileNetworkIntent.setComponent(new ComponentName(
+                        "com.android.phone", "com.android.phone.MobileNetworkSettings"));
+            SubscriptionManager.putPhoneIdAndSubIdExtra(mobileNetworkIntent,
+                    i, sir != null ? sir.getSubscriptionId() : -1);
+            Preference mobileNetworkPref = new Preference(getActivity());
+            mobileNetworkPref.setTitle(
+                    getString(R.string.sim_mobile_network_settings_title, (i + 1)));
+            mobileNetworkPref.setIntent(mobileNetworkIntent);
+            mMobileNetwork.addPreference(mobileNetworkPref);
         }
         updateAllOptions();
     }
@@ -268,18 +285,22 @@ public class SimSettings extends RestrictedSettingsFragment implements Indexable
             Intent newIntent = new Intent(context, SimPreferenceDialog.class);
             newIntent.putExtra(EXTRA_SLOT_ID, ((SimPreference)preference).getSlotId());
             startActivity(newIntent);
+            return true;
         } else if (findPreference(KEY_CELLULAR_DATA) == preference) {
             intent.putExtra(SimDialogActivity.DIALOG_TYPE_KEY, SimDialogActivity.DATA_PICK);
             context.startActivity(intent);
+            return true;
         } else if (findPreference(KEY_CALLS) == preference) {
             intent.putExtra(SimDialogActivity.DIALOG_TYPE_KEY, SimDialogActivity.CALLS_PICK);
             context.startActivity(intent);
+            return true;
         } else if (findPreference(KEY_SMS) == preference) {
             intent.putExtra(SimDialogActivity.DIALOG_TYPE_KEY, SimDialogActivity.SMS_PICK);
             context.startActivity(intent);
+            return true;
         }
 
-        return true;
+        return false;
     }
 
     private class SimPreference extends Preference {

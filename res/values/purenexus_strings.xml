@@ -235,4 +235,7 @@
     <string name="menu_stats_reset">Reset stats</string>
     <!-- Reset stats confirmation dialog's message -->
     <string name="reset_stats_msg">Battery history stats are going to be reset</string>
+
+    <string name="sim_mobile_network_settings_category_title">Mobile network settings</string>
+    <string name="sim_mobile_network_settings_title">SIM %d settings</string>
 </resources>
