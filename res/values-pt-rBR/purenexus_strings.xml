@@ -21,9 +21,9 @@
   <string name="menu_show_substratum">Exibir camadas</string>
   <string name="menu_hide_substratum">Ocultar camadas</string>
   <!-- Manage applications: show substratum icon overlays -->
-  <string name="filter_substratum_icons">Sobreposições de ícone do substrato</string>
-  <string name="menu_show_substratum_icons">Mostrar sobreposições de ícone</string>
-  <string name="menu_hide_substratum_icons">Ocultar sobreposições de ícone</string>
+  <string name="filter_substratum_icons">Sobreposições de ícone do substratum</string>
+  <string name="menu_show_substratum_icons">Mostrar sobreposições dos ícones</string>
+  <string name="menu_hide_substratum_icons">Ocultar sobreposições dos ícones</string>
   <!-- Custom Settings -->
   <!-- Dashboard -->
   <string name="header_category_custom">Controle de ROM</string>
@@ -32,21 +32,21 @@
   <string name="substratum_title">Substratum</string>
   <string name="substratum_summary">Personalizar o tema do dispositivo</string>
   <string name="supersu_title">SuperSU</string>
-  <string name="superuser_title">Superuser</string>
+  <string name="superuser_title">SuperUser</string>
   <string name="supersu_summary">Gerenciar permissões de root</string>
-  <string name="magisk_title">Magisk manager</string>
-  <string name="magisk_summary">Control modules and settings</string>
+  <string name="magisk_title">Magisk Manager</string>
+  <string name="magisk_summary">Controle dos módulos e configurações</string>
   <!-- Development Settings -->
   <!-- Dev Options Enabled by Default -->
-  <string name="show_dev_already_enabled">Não há necessidade, opções do desenvolvedor são habilitadas por padrão.</string>
+  <string name="show_dev_already_enabled">Não há necessidade, as opções do desenvolvedor são habilitadas por padrão.</string>
   <!-- ADB debugging notifications -->
-  <string name="enable_adb_custom">Depuração do Android</string>
+  <string name="enable_adb_custom">Depuração Android</string>
   <string name="enable_adb_summary_custom">Habilitar a interface do Android Debug Bridge (adb)</string>
-  <string name="adb_notify">Notificação do ADB</string>
+  <string name="adb_notify">Notificação ADB</string>
   <string name="adb_notify_summary">Exibir uma notificação quando o USB ou a rede de depuração está habilitada</string>
   <string name="adb_over_network">ADB através da rede</string>
   <string name="adb_over_network_summary">Habilitar a depuração TCP/IP por interfaces de rede (Wi\u2011Fi, redes USB). Esta configuração é perdida ao reiniciar</string>
-  <string name="adb_over_network_warning">AVISO: Quando o ADB através da rede está ativado, seu telefone está aberto para invasões em todas as redes conectadas!\n\nApenas use este recurso quando você está conectado em uma rede confiável.\n\nVocê realmente quer habilitar esta função?</string>
+  <string name="adb_over_network_warning">AVISO: Quando o ADB através da rede está ativado, seu telefone estará aberto para invasões em todas as redes conectadas!\n\nApenas use este recurso quando você está conectado em uma rede confiável.\n\nVocê realmente quer habilitar esta função?</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
   <string name="local_backup_password_title">Senha de backup desktop</string>
   <!-- Force authorize substratum packages -->
