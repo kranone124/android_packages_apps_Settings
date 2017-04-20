@@ -49,7 +49,7 @@ public class AmbientSettings extends SettingsPreferenceFragment
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsEvent.EXTENSIONS;
+        return MetricsEvent.PURE;
     }
 
     @Override

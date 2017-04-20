@@ -166,7 +166,7 @@ public class PowerUsageSummary extends PowerUsageBase {
         AlertDialog dialog = new AlertDialog.Builder(getActivity())
             .setTitle(R.string.menu_stats_reset)
             .setMessage(R.string.reset_stats_msg)
-            .setPositiveButton(R.string.ok, new OnClickListener() {
+            .setPositiveButton(R.string.okay, new OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     // Reset stats and request a refresh to initialize vars
