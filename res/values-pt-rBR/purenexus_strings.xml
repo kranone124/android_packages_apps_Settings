@@ -21,75 +21,9 @@
   <string name="menu_show_substratum">Exibir camadas</string>
   <string name="menu_hide_substratum">Ocultar camadas</string>
   <!-- Manage applications: show substratum icon overlays -->
-  <string name="filter_substratum_icons">Camadas de ícones Substratum</string>
-  <string name="menu_show_substratum_icons">Mostrar camadas de ícone</string>
-  <string name="menu_hide_substratum_icons">Ocultar camadas de ícone</string>
-  <!-- App Ops Settings -->
-  <string name="app_ops_cat_location">Location</string>
-  <string name="app_ops_cat_personal">Personal</string>
-  <string name="app_ops_cat_messaging">Messaging</string>
-  <string name="app_ops_cat_media">Media</string>
-  <string name="app_ops_cat_device">Device</string>
-  <string name="app_ops_access_camera">camera</string>
-  <string name="app_ops_access_location">location</string>
-  <string name="app_ops_access_notifications">notifications</string>
-  <string name="app_ops_activate_vpn">VPN</string>
-  <string name="app_ops_auto_start">autostart</string>
-  <string name="app_ops_delete_call_log">delete call log</string>
-  <string name="app_ops_delete_contacts">delete contacts</string>
-  <string name="app_ops_delete_mms">delete MMS</string>
-  <string name="app_ops_delete_sms">delete SMS</string>
-  <string name="app_ops_draw_on_top">draw on top</string>
-  <string name="app_ops_get_usage_stats">get usage stats</string>
-  <string name="app_ops_keep_device_awake">keep awake</string>
-  <string name="app_ops_make_phone_call">make call</string>
-  <string name="app_ops_modify_calendar">update calendar</string>
-  <string name="app_ops_modify_call_log">update call log</string>
-  <string name="app_ops_modify_clipboard">modify clipboard</string>
-  <string name="app_ops_modify_contacts">update contacts</string>
-  <string name="app_ops_modify_settings">update settings</string>
-  <string name="app_ops_mute_unmute_microphone">mute/unmutee mic</string>
-  <string name="app_ops_play_audio">play audio</string>
-  <string name="app_ops_post_notification">post notification</string>
-  <string name="app_ops_project_media">project media</string>
-  <string name="app_ops_read_calendar">read calendar</string>
-  <string name="app_ops_read_call_log">read call log</string>
-  <string name="app_ops_read_clipboard">read clipboard</string>
-  <string name="app_ops_read_contacts">read contacts</string>
-  <string name="app_ops_read_mms">read MMS</string>
-  <string name="app_ops_read_sms">read SMS</string>
-  <string name="app_ops_receive_sms">receive SMS</string>
-  <string name="app_ops_record_audio">record audio</string>
-  <string name="app_ops_send_mms">send MMS</string>
-  <string name="app_ops_send_sms">send SMS</string>
-  <string name="app_ops_toast_window">toast messages</string>
-  <string name="app_ops_use_alarm_volume">alarm volume</string>
-  <string name="app_ops_use_audio_focus">audio focus</string>
-  <string name="app_ops_use_bluetooth_volume">Bluetooth volume</string>
-  <string name="app_ops_use_master_volume">master volume</string>
-  <string name="app_ops_use_media_buttons">media buttons</string>
-  <string name="app_ops_use_media_volume">media volume</string>
-  <string name="app_ops_use_notification_volume">notification volume</string>
-  <string name="app_ops_use_ring_volume">ringtone volume</string>
-  <string name="app_ops_use_vibrate">haptic feedback</string>
-  <string name="app_ops_use_voice_volume">voice call volume</string>
-  <string name="app_ops_write_mms">write MMS</string>
-  <string name="app_ops_write_sms">write SMS</string>
-  <string name="app_ops_use_fingerprint">fingerprint</string>
-  <string name="app_ops_add_voicemail">voicemail</string>
-  <string name="app_ops_read_phone_state">access phone state</string>
-  <string name="app_ops_scan_wifi">Scan WiFi Networks</string>
-  <string name="app_ops_change_wallpaper">change wallpaper</string>
-  <string name="app_ops_assist_structure">assist structure</string>
-  <string name="app_ops_assist_screenshot">screenshot</string>
-  <string name="app_ops_use_body_sensors">body sensors</string>
-  <string name="app_ops_read_cell_broadcasts">cell broadcasts</string>
-  <string name="app_ops_mock_location">mock location</string>
-  <string name="app_ops_read_external_storage">read ext. stor.</string>
-  <string name="app_ops_write_external_storage">write ext. stor.</string>
-  <string name="app_ops_turn_on_screen">turn screen on</string>
-  <string name="app_ops_get_accounts">device accounts</string>
-  <string name="app_ops_run_in_background">run in background</string>
+  <string name="filter_substratum_icons">Sobreposições de ícone do substratum</string>
+  <string name="menu_show_substratum_icons">Mostrar sobreposições dos ícones</string>
+  <string name="menu_hide_substratum_icons">Ocultar sobreposições dos ícones</string>
   <!-- Custom Settings -->
   <!-- Dashboard -->
   <string name="header_category_custom">Controle da ROM</string>
@@ -104,11 +38,11 @@
   <string name="magisk_summary">Controlar módulos e configurações</string>
   <!-- Development Settings -->
   <!-- Dev Options Enabled by Default -->
-  <string name="show_dev_already_enabled">Não há necessidade, opções do desenvolvedor são habilitadas por padrão.</string>
+  <string name="show_dev_already_enabled">Não há necessidade, as opções do desenvolvedor são habilitadas por padrão.</string>
   <!-- ADB debugging notifications -->
-  <string name="enable_adb_custom">Depuração do Android</string>
+  <string name="enable_adb_custom">Depuração Android</string>
   <string name="enable_adb_summary_custom">Habilitar a interface do Android Debug Bridge (adb)</string>
-  <string name="adb_notify">Notificação do ADB</string>
+  <string name="adb_notify">Notificação ADB</string>
   <string name="adb_notify_summary">Exibir uma notificação quando o USB ou a rede de depuração está habilitada</string>
   <string name="adb_over_network">ADB através da rede</string>
   <string name="adb_over_network_summary">Habilitar a depuração TCP/IP por interfaces de rede (Wi\u2011Fi, redes USB). Esta configuração é redefinida ao reiniciar</string>
@@ -184,4 +118,125 @@
   <string name="power_notifications_ringtone_title">Som de notificação</string>
   <!-- Sound settings, charging sounds label for ringtone == none -->
   <string name="power_notifications_ringtone_silent">Silencioso</string>
+     
+  <!-- Battery stats reset -->
+  <string name="battery_stats_reset">Resetar estatísticas</string>
+  <string name="battery_stats_message">Os históricos e estatísticas da bateria serão reiniciados</string>
+
+  <!-- Doze pulse options -->
+  <string name="doze_settings">Exibição de ambiente</string>
+  <string name="summary_doze_enabled">Habilitado</string>
+  <string name="summary_doze_disabled">Desligado</string>
+  <string name="doze_overwrite_value_title">Substituir os padrões</string>
+  <string name="doze_overwrite_value_summary">Permite a substituição do valor padrão pela configuração do usuário</string>
+  <string name="doze_pulse_title">Ajuste de configurações de usuário</string>
+  <string name="doze_pulse_duration_in_title">Desvanecer</string>
+  <string name="doze_pulse_duration_in_summary"></string>
+  <string name="doze_pulse_duration_visible_title">Duração visível</string>
+  <string name="doze_pulse_duration_visible_summary"></string>
+  <string name="doze_pulse_duration_out_title">Esmaecer</string>
+  <string name="doze_pulse_duration_out_summary"></string>
+  <string name="doze_trigger_pickup_title">Ativação do gesto de pegar o dispositivo</string>
+  <string name="doze_trigger_pickup_summary_on">As pulsações irão ser acionadas pelos sensores de movimento</string>
+  <string name="doze_trigger_pickup_summary_off">O gesto de pegar o dispositivo não será utilizado como mecanismo de ativação</string>
+  <string name="doze_trigger_notification_title">Gatilho de notificação</string>
+  <string name="doze_trigger_notification_summary_on">As pulsações serão acionadas por notificações</string>
+  <string name="doze_trigger_notification_summary_off">As notificações não serão utilizadas como mecanismo acionador</string>
+  <string name="doze_brightness_level_title">Nível de brilho</string>
+  <string name="onehundred_ms">100 ms</string>
+  <string name="twofifty_ms">250 ms</string>
+  <string name="fivehundred_ms_default">500 ms (padrão)</string>
+  <string name="sevenfifty_ms">750 ms</string>
+  <string name="one_second">1 s</string>
+  <string name="onehalf_second">1.5 s</string>
+  <string name="two_second">2 s</string>
+  <string name="twohalf_second">2.5 s</string>
+  <string name="three_second_default">3 s (padrão)</string>
+  <string name="threehalf_second">3.5 s</string>
+  <string name="four_second">4 s</string>
+  <string name="fourhalf_second">4.5 s</string>
+  <string name="five_second">5 s</string>
+  <string name="doze_notification_color_invert_title">Inversão de cor</string>
+  <string name="doze_notification_color_invert_summary_off">Notificações do ambiente de exposição não irão ser invertidas. Use temas escuros.</string>
+  <string name="doze_notification_color_invert_summary_on">Notificações do ambiente de exposição não irão ser invertidas. Use temas claros/stock.</string>
+  
+  <!-- Double tap for doze -->
+  <string name="double_tap_wake_doze_title">Duplo toque para acordar no modo doze</string>
+  <string name="double_tap_wake_doze_summary">Duplo toque para acordar o dispositivo na tela de pulso do modo doze</string>
+
+  <!-- Mobile network settings -->
+  <string name="sim_mobile_network_settings_category_title">Configurações de rede móvel</string>
+  <string name="sim_mobile_network_settings_title">Configurações do SIM %d</string>
+
+  <!-- Battery status in ambient display -->
+  <string name="ambient_display_show_battery_title">Indicador da bateria</string>
+  <string name="ambient_display_show_battery_summary">Mostrar indicador da bateria durante o pulso</string>
+
+  <!-- App Ops Categories -->
+  <string name="app_ops_cat_location">Localização</string>
+  <string name="app_ops_cat_personal">Pessoal</string>
+  <string name="app_ops_cat_messaging">Mensagens</string>
+  <string name="app_ops_cat_media">Mídia</string>
+  <string name="app_ops_cat_device">Dispositivo</string>
+  <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_access_camera">acessar a câmera</string>
+  <string name="app_ops_access_location">acessar sua localização</string>
+  <string name="app_ops_access_notifications">ler suas notificações</string>
+  <string name="app_ops_activate_vpn">ativar uma VPN</string>
+  <string name="app_ops_auto_start">iniciar ao ligar o dispositivo</string>
+  <string name="app_ops_delete_call_log">excluir seu registro de chamadas</string>
+  <string name="app_ops_delete_contacts">excluir seus contatos</string>
+  <string name="app_ops_delete_mms">excluir suas mensagens MMS</string>
+  <string name="app_ops_delete_sms">excluir suas mensagens SMS</string>
+  <string name="app_ops_draw_on_top">desenhar janelas em primeiro plano</string>
+  <string name="app_ops_get_usage_stats">obter estatísticas de uso do aplicativo</string>
+  <string name="app_ops_keep_device_awake">manter o seu dispositivo ativo</string>
+  <string name="app_ops_make_phone_call">realizar uma chamada telefônica</string>
+  <string name="app_ops_modify_calendar">atualizar o seu calendário</string>
+  <string name="app_ops_modify_call_log">atualizar o registo de chamadas</string>
+  <string name="app_ops_modify_clipboard">modificar a área de transferência</string>
+  <string name="app_ops_modify_contacts">atualizar seus contatos</string>
+  <string name="app_ops_modify_settings">atualizar configurações de sistema</string>
+  <string name="app_ops_mute_unmute_microphone">ligar/desligar o microfone</string>
+  <string name="app_ops_play_audio">reproduzir áudio</string>
+  <string name="app_ops_post_notification">postar uma notificação</string>
+  <string name="app_ops_project_media">mídia do projeto</string>
+  <string name="app_ops_read_calendar">ler seu calendário</string>
+  <string name="app_ops_read_call_log">ler o registro de chamadas</string>
+  <string name="app_ops_read_clipboard">ler a área de transferência</string>
+  <string name="app_ops_read_contacts">ler seus contatos</string>
+  <string name="app_ops_read_mms">ler suas mensagens MMS</string>
+  <string name="app_ops_read_sms">ler suas mensagens SMS</string>
+  <string name="app_ops_receive_sms">receber uma mensagem SMS</string>
+  <string name="app_ops_record_audio">gravar áudio</string>
+  <string name="app_ops_send_mms">enviar uma mensagem MMS</string>
+  <string name="app_ops_send_sms">enviar uma mensagem SMS</string>
+  <string name="app_ops_toast_window">exibir mensagens flutuantes na tela</string>
+  <string name="app_ops_use_alarm_volume">controlar volume do alarme</string>
+  <string name="app_ops_use_audio_focus">controlar o foco do áudio</string>
+  <string name="app_ops_use_bluetooth_volume">controlar o volume de Bluetooth</string>
+  <string name="app_ops_use_master_volume">controlar o volume principal</string>
+  <string name="app_ops_use_media_buttons">usar os botões de mídia</string>
+  <string name="app_ops_use_media_volume">controlar o volume de mídia</string>
+  <string name="app_ops_use_notification_volume">controlar o volume da notificação</string>
+  <string name="app_ops_use_ring_volume">controlar o volume da campainha</string>
+  <string name="app_ops_use_vibrate">controlar reposta ao toque</string>
+  <string name="app_ops_use_voice_volume">controlar o volume de chamadas de voz</string>
+  <string name="app_ops_write_mms">escrever uma mensagem MMS</string>
+  <string name="app_ops_write_sms">escrever uma mensagem SMS</string>
+  <string name="app_ops_use_fingerprint">utilizar impressão digital</string>
+  <string name="app_ops_add_voicemail">adicionar correio de voz</string>
+  <string name="app_ops_read_phone_state">acessar o estado do telefone</string>
+  <string name="app_ops_scan_wifi">Procurar redes WiFi</string>
+  <string name="app_ops_change_wallpaper">mudar o papel de parede</string>
+  <string name="app_ops_assist_structure">utilizar estrutura de assistência</string>
+  <string name="app_ops_assist_screenshot">tirar uma captura de tela</string>
+  <string name="app_ops_use_body_sensors">utilizar os sensores corporais</string>
+  <string name="app_ops_read_cell_broadcasts">ler as mensagens de difusão de rede</string>
+  <string name="app_ops_mock_location">simular a sua localização</string>
+  <string name="app_ops_read_external_storage">ler o armazenamento externo</string>
+  <string name="app_ops_write_external_storage">escrever no armazenamento externo</string>
+  <string name="app_ops_turn_on_screen">ligar a tela</string>
+  <string name="app_ops_get_accounts">obter as contas do dispositivo</string>
+  <string name="app_ops_run_in_background">executar em segundo plano</string>
 </resources>
