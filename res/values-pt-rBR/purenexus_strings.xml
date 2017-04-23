@@ -239,4 +239,10 @@
   <string name="app_ops_turn_on_screen">ligar a tela</string>
   <string name="app_ops_get_accounts">obter as contas do dispositivo</string>
   <string name="app_ops_run_in_background">executar em segundo plano</string>
+
+  <string name="device_gestures_title">Gestos do dispositivo</string>
+  <string name="device_gestures_summary">Configurar gestos extras para o dispositivo</string>
+
+  <string name="device_doze_title">Gestos do modo de exibição ambiente</string>
+  <string name="device_doze_summary">Configurar gestos extras para o modo de exibição ambiente</string>
 </resources>
