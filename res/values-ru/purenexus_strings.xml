@@ -184,4 +184,55 @@
   <string name="power_notifications_ringtone_title">Звук уведомления</string>
   <!-- Sound settings, charging sounds label for ringtone == none -->
   <string name="power_notifications_ringtone_silent">Беззвучный</string>
+    <!-- Doze pulse options -->
+    <string name="doze_settings">Настройки индикации событий</string>
+    <string name="summary_doze_enabled">Включено</string>
+    <string name="summary_doze_disabled">Отключено</string>
+    < <string name="doze_overwrite_value_title">Перезаписать значения по умолчанию</string>
+    <string name="doze_overwrite_value_summary">Разрешить изменение пользователем настроек по умолчанию</string>
+    <string name="doze_pulse_title">Параметры, настраиваемые пользователем</string>
+    <string name="doze_pulse_duration_in_title">Проявление</string>
+    <string name="doze_pulse_duration_visible_title">Время видимости</string>
+    <string name="doze_pulse_duration_out_title">Затухание</string>
+    <string name="doze_trigger_pickup_title">Триггер датчика движения</string>
+    <string name="doze_trigger_pickup_summary_on">Пульсация экрана при запрете спящего режима будет переключаться датчиком подбора</string>
+    <string name="doze_trigger_pickup_summary_off">Уведомления не будут использованы для запуска</string>
+    <string name="doze_trigger_notification_title">Триггер уведомлений</string>
+    <string name="doze_trigger_notification_summary_on">Пульсация экрана при запрете спящего режима будет переключаться уведомлениями</string>
+    <string name="doze_trigger_notification_summary_off">Уведомления не будут использованы в качестве триггера</string>
+    <string name="doze_brightness_level_title">Уровень яркости</string>
+    <string name="onehundred_ms">100 мс</string>
+    <string name="twofifty_ms">250 мс</string>
+    <string name="fivehundred_ms_default">500 мс (по умолчанию)</string>
+    <string name="sevenfifty_ms">750 мс</string>
+    <string name="one_second">1 сек</string>
+    <string name="onehalf_second">1.5 сек</string>
+    <string name="two_second">2 сек</string>
+    <string name="twohalf_second">2.5 сек</string>
+    <string name="three_second_default">3 сек (по умолчанию)</string>
+    <string name="threehalf_second">3.5 сек</string>
+    <string name="four_second">4 сек</string>
+    <string name="fourhalf_second">4.5 сек</string>
+    <string name="five_second">5 сек</string>
+    <string name="doze_notification_color_invert_title">Инверсия уведомлений</string>
+    <string name="doze_notification_color_invert_summary_off">Уведомления не будут инвертированы. Используйте для темных тем.</string>
+    <string name="doze_notification_color_invert_summary_on">Уведомления будут инвертированы. Используйте для светлых/стоковых тем.</string>
+
+    <!-- Double tap for doze -->
+    <string name="double_tap_wake_doze_title">Двойное нажатие для пробуждения</string>
+    <string name="double_tap_wake_doze_summary">Требовать двойного нажатия для пробуждения при получении уведмолений</string>
+
+    <!-- Menu label for reset the battery stats -->
+    <string name="menu_stats_reset">Сбросить статистику</string>
+    <!-- Reset stats confirmation dialog's message -->
+    <string name="reset_stats_msg">Статистика батареи будет сброшена</string>
+
+    <string name="sim_mobile_network_settings_category_title">Настройки мобильной сети</string>
+    <string name="sim_mobile_network_settings_title">Настройки SIM %d</string>
+    <string name="ambient_display_show_battery_title">Состояние батареи</string>
+    <string name="ambient_display_show_battery_summary">Показывать значок батареи во время пульсации</string>
+    <string name="device_gestures_title">Жесты устройства</string>
+    <string name="device_gestures_summary">Задать дополнительные жесты для вашего устройства</string>
+    <string name="device_doze_title">Автоматическое включение экрана</string>
+    <string name="device_doze_summary">Включать экран, когда приходит уведомление</string>
 </resources>
