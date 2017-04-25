@@ -188,7 +188,7 @@
     <string name="doze_settings">Настройки индикации событий</string>
     <string name="summary_doze_enabled">Включено</string>
     <string name="summary_doze_disabled">Отключено</string>
-    < <string name="doze_overwrite_value_title">Перезаписать значения по умолчанию</string>
+    <string name="doze_overwrite_value_title">Перезаписать значения по умолчанию</string>
     <string name="doze_overwrite_value_summary">Разрешить изменение пользователем настроек по умолчанию</string>
     <string name="doze_pulse_title">Параметры, настраиваемые пользователем</string>
     <string name="doze_pulse_duration_in_title">Проявление</string>
