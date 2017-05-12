@@ -102,7 +102,7 @@
   <string name="supersu_title">SuperSU</string>
   <string name="superuser_title">Superuser</string>
   <string name="supersu_summary">Управление root-доступом</string>
-  <string name="magisk_title">Magisk менеджер</string>
+  <string name="magisk_title">Менеджер Magisk</string>
   <string name="magisk_summary">Модули управления и настройки</string>
   <!-- Development Settings -->
   <!-- Dev Options Enabled by Default -->
