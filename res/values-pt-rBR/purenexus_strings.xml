@@ -90,6 +90,10 @@
   <string name="app_ops_turn_on_screen">ativar a tela</string>
   <string name="app_ops_get_accounts">contas do dispositivo</string>
   <string name="app_ops_run_in_background">executar em segundo plano</string>
+  <!-- Battery Saver Settings -->
+  <!-- Disable Battery Saver Warning Color -->
+  <string name="battery_saver_color_title">Cor de aviso</string>
+  <string name="battery_saver_color_summary">Habilitar a cor laranja - barras de status/navegação quando o economizador de bateria está ativado</string>
   <!-- Custom Settings -->
   <!-- Dashboard -->
   <string name="header_category_custom">Controle da ROM</string>
@@ -162,6 +166,10 @@
   <!-- Gesture Settings -->
   <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
   <string name="double_twist_for_camera_mode_summary_pn">Alterne entre as câmeras traseira e frontal com um movimento rápido do pulso, no Google câmera</string>
+  <!-- Language & Input -->
+  <!-- Fullscreen Keyboard -->
+  <string name="disable_fullscreen_keyboard_title">Desativar o teclado em tela cheia</string>
+  <string name="disable_fullscreen_keyboard_summary">O teclado em modo paisagem nunca ocupa a tela inteira</string>
   <!-- Sound & Notification Settings -->
   <!-- Increasing ring tone volume -->
   <string name="increasing_ring_volume_option_title">Aumentar gradualmente o volume</string>
@@ -175,6 +183,11 @@
   <string name="volume_adjust_sounds_title">Ajuste do volume dos sons</string>
   <!-- Category title for Charging sounds -->
   <string name="power_notifications_category_title">Sons de carregamento</string>
+  <!-- Sound settings, Charging sounds enable/disable, setting list pref -->
+  <string name="power_notifications_conditions_title">Condições</string>
+  <string name="power_notifications_conditions_none">Nenhum</string>
+  <string name="power_notifications_conditions_both">Conectado e desconectado</string>
+  <string name="power_notifications_conditions_connect">Apenas conectado</string>
   <!-- Sound settings, Charging sounds enable/disable, setting check box label -->
   <string name="power_notifications_enable_title">Habilitar</string>
   <string name="power_notifications_enable_summary">Tocar um som quando conectar ou desconectar o carregador</string>
@@ -184,6 +197,8 @@
   <string name="power_notifications_ringtone_title">Som de notificação</string>
   <!-- Sound settings, charging sounds label for ringtone == none -->
   <string name="power_notifications_ringtone_silent">Silencioso</string>
+  <!-- Sound settings, custom charging sound, setting check box label -->
+  <string name="power_notifications_custom_ringtone_title">Som de notificação personalizado</string>
      
   <!-- Battery stats reset -->
   <string name="battery_stats_reset">Resetar estatísticas</string>
