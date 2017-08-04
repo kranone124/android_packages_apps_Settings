@@ -13,6 +13,11 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
-    <dimen name="dashboard_category_padding_bottom">8dip</dimen>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+ 
+     <!-- WiFi Calling select dialog -->
+     <dimen name="select_dialog_padding_start">20dp</dimen>
+     <dimen name="select_dialog_item_margin_start">12dp</dimen>
+     <dimen name="select_dialog_summary_padding_bottom">8dp</dimen>
+ 
 </resources>
